@@ -13,14 +13,19 @@
 
       -e EPOCHS, --epochs=EPOCHS
                             number of epochs
+      
       -b BATCHSIZE, --batch-size=BATCHSIZE
                             batch size
+      
       -l LR, --learning-rate=LR
                             learning rate
+      
       -g, --gpu             use cuda
+      
       -c LOAD, --load=LOAD  load file model
-      -s SCALE, --scale=SCALE
-                            downscaling factor of the images
+      
+      -s SCALE, --scale=SCALE   downscaling factor of the images
+      
       -t HEIGHT, --height=HEIGHT
                             rescale images to height
 
